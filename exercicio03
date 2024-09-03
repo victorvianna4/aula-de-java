@@ -1,0 +1,48 @@
+package controle;
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+
+public class lista01 {
+
+	public static void main(String[] args) {
+		
+		/*Faça um programa para solicitar o código, a quantidade de alunos do sexo
+masculino, a quantidade de alunos do sexo feminino e a quantidade de alunos
+aprovados de uma determinada turma.
+Calcular e informar: a porcentagem de alunos do sexo masculino; a porcentagem
+de alunos do sexo feminino; a porcentagem de alunos reprovados; o total de
+alunos da turma.*/
+
+		Scanner scanner= new Scanner(System.in);
+		System.out.println("digite o codigo da turma ");
+		
+		double codigo = scanner.nextInt();
+		System.out.println("digite a quantidade de meninas");
+		double meninas = scanner.nextInt(); 
+		System.out.println("digite a quantidade de meninos");
+		
+		double meninos = scanner.nextInt();
+		System.out.println("digite a quantidade de aprovados");
+		double aprovados =scanner.nextInt();
+	
+		double totalalunos= meninos+meninas;
+	
+		double reprovados = totalalunos-aprovados;
+		
+		double pormeninos = (meninos / totalalunos)*100;
+		
+		double pormeninas = (meninas / totalalunos) * 100;
+		double porreprovado = (reprovados / totalalunos) * 100;
+
+		System.out.println(pormeninos);
+		System.out.println(pormeninas);
+		System.out.println(totalalunos);
+		System.out.println(porreprovado);
+		
+		
+		
+		
+	}
+
+}
