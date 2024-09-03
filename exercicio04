@@ -1,0 +1,30 @@
+package controle;
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+
+public class lista01 {
+
+	public static void main(String[] args) {
+		
+		/*O camelô Zé da banca vende diariamente, games, calculadoras e canetas. Faça
+um programa para solicitar o total de games, o total de calculadoras e o
+total de canetas vendidas ao término do dia. O programa deve solicitar também
+o preço de cada um dos produtos e ao final calcular e informar o total do
+faturamento com cada produto e o faturamento total.*/
+	java.scanner=new Scanner(System.in);
+	System.out.println("digite o total de games vendidos");
+	double games = scanner.nextInt();
+	System.out.println("digite seu preço\n");
+	
+	System.out.println("digite o total de calculadoras vendidas\n");
+		
+	System.out.println("digite o total de canetas vendidas\n");
+	
+	
+	
+	
+	
+	}
+
+}
